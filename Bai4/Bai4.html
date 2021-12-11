@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bai tap 4</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<div>
+			<h2>Thêm hoa mới</h2>
+			<form>
+				<div>
+					<label>Tên (bắt buộc nhập)</label><br />
+					<input type="text" value="" name="ten" />
+				</div>
+				<br />
+				<div>
+					<label>Loại hoa</label><br />
+					<select name="loaihoa">
+						<option value="">--Chọn loại hoa--</option>
+						<option value="khaitruong">Hoa khai trương</option>
+						<option value="kyniem">Hoa kỷ niệm</option>
+						<option value="chucmung">Hoa chúc mừng</option>
+					</select>
+				</div>
+				<br />
+				<div>
+					<label>Giá VNĐ (bắt buộc nhập)</label><br />
+					<input type="text" value="" name="gia" />
+				</div>
+				<br />
+				<div>
+					<label>Tóm tắt</label><br />
+					<textarea name="tomtat" cols="50" rows="5"></textarea>
+				</div>
+				<br />
+				<div>
+					<label>Là sản phẩm nổi bật</label><br />
+					<select name="noibat">
+						<option value="Sai">Sai</option>
+						<option value="Đúng">Đúng</option>
+					</select>
+				</div>
+				<br />
+				<div>
+					<label>Là sản phẩm khuyến mãi</label><br />
+					<select name="khuyenmai">
+						<option value="Sai">Sai</option>
+						<option value="Đúng">Đúng</option>
+					</select>
+				</div>
+				<br />
+				<div>
+					<label>Hình ảnh</label><br />
+					<input type="file" name="avatar" />
+				</div>
+				<br />
+				<div>
+					<input type="submit" value="Lưu" />
+					<input type="reset" value="Nhập lại" />
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
